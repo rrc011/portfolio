@@ -6,6 +6,7 @@ import path from 'path';
 // https://vitejs.dev/config/
 export default defineConfig(() => {
   return {
+    base: '/portfolio/',
     plugins: [react()],
     css: {
       postcss: {
