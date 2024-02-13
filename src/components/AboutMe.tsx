@@ -1,4 +1,5 @@
 import { useDetectLanguage } from '@/core/hooks/useDetectLanguage';
+import me from '../assets/images/me.jpg';
 
 export const AboutMe = () => {
   const language = useDetectLanguage();
@@ -70,7 +71,7 @@ export const AboutMe = () => {
         {language === 'es' ? ABOUT_ES : ABOUT_EN}
       </div>
 
-      <img src="./src/assets/images/me.jpg" className="rounded-full size-64 order-1 md:order-2" />
+      <img src={me} className="rounded-full size-64 order-1 md:order-2" />
     </section>
   );
 };
