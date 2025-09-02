@@ -1,5 +1,5 @@
 import { useDetectLanguage } from '@/core/hooks/useDetectLanguage';
-import me from '../assets/images/me.jpg';
+import me from '../assets/me.jpg';
 
 export const AboutMe = () => {
   const language = useDetectLanguage();

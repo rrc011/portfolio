@@ -1,6 +1,6 @@
 import { Badge } from '@/components/Badge';
 import { SectionContainer } from '@/components/SectionContainer';
-import me from '../assets/images/me.jpg';
+import me from '../assets/me.jpg';
 import { SocialPill } from '@/components/SocialPill';
 import { Briefcase } from '@/components/icons/Briefcase';
 import { CodeIcon } from '@/components/icons/CodeIcon';

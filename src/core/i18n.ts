@@ -18,7 +18,7 @@ i18n
             Contact: 'Contact',
           },
           Resume: {
-            Years: '+5 years of experience.',
+            Years: '+7 years of experience.',
             Position: 'Full Stack Developer.',
             Location: 'From Santo Domingo, Dominican Republic.',
             Description: 'Specialized in creating unique applications.',
@@ -53,7 +53,7 @@ i18n
             Contact: 'Contacto',
           },
           Resume: {
-            Years: '+5 Años de experiencia.',
+            Years: '+7 Años de experiencia.',
             Position: 'Desarrollador Full Stack.',
             Location: 'De Santo Domingo, Republica Dominicana.',
             Description: 'Especializado en crear aplicaciones únicas.',
