@@ -1,8 +1,9 @@
 import { LinkButton } from './LinkButton';
 import { GitHub } from './icons/GitHub';
+import tuempleoideal from '../assets/tuempleoideal.png';
 
-import { SiAxios, SiMicrosoftazure, SiNestjs, SiTailwindcss, SiTypescript } from 'react-icons/si';
-import { DiDotnet, DiMongodb, DiMsqlServer } from 'react-icons/di';
+import { SiAxios, SiMicrosoftazure, SiNestjs, SiNextdotjs, SiPrisma, SiReactquery, SiTailwindcss, SiTypescript } from 'react-icons/si';
+import { DiDotnet, DiMongodb, DiMsqlServer, DiPostgresql } from 'react-icons/di';
 import { FaAngular, FaBootstrap, FaGit, FaReact, FaSass, FaVuejs } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { useDetectLanguage } from '@/core/hooks/useDetectLanguage';
@@ -92,6 +93,30 @@ export const Projects = () => {
       class: 'bg-[#E0234E] text-white',
       icon: SiNestjs,
     },
+    NEXT: {
+      name: 'Next.js',
+      class: 'bg-black text-white',
+      icon: SiNextdotjs,
+    },
+    PRISMA: {
+      name: 'Prisma',
+      class: 'bg-[#2D3748] text-white',
+      icon: SiPrisma,
+    },
+    POSTGRES: {
+      name: 'PostgreSQL',
+      class: 'bg-[#336791] text-white',
+      icon: DiPostgresql,
+    },
+    TANSTACK: {
+      name: 'TanStack Query',
+      class: 'bg-[#FF4154] text-white',
+      icon: SiReactquery,
+    },
+    SHADCN: {
+      name: 'shadcn/ui',
+      class: 'bg-black text-white',
+    },
   };
 
   const PROJECTS_ES = [
@@ -100,9 +125,9 @@ export const Projects = () => {
       description:
         'Tu Empleo Ideal es una plataforma integral diseñada para facilitar la búsqueda y aplicación de empleo. Con una interfaz intuitiva y atractiva, los usuarios pueden explorar diversas ofertas laborales, filtrar por categorías, y aplicar a los puestos de trabajo de su interés. La plataforma está respaldada por tecnologías modernas como NestJS y React, asegurando un rendimiento eficiente y una experiencia de usuario fluida. Además, se integra con MongoDB para almacenar y gestionar la información de los usuarios y las ofertas laborales. El diseño responsivo y la implementación de estilos con SASS y Bootstrap garantizan una experiencia consistente en diferentes dispositivos. Axios se utiliza para gestionar las solicitudes HTTP, y el control de versiones se realiza mediante Git. ¡Explora Tu Empleo Ideal y da un paso más cerca hacia tu carrera soñada!',
       link: 'https://tuempleoideal.com.do',
-      image: './assets/tuempleoideal.jpg',
+      image: tuempleoideal,
       github: '',
-      tags: [TAGS.NESTJS, TAGS.REACT, TAGS.SASS, TAGS.AXIOS, TAGS.BOOTSTRAP, TAGS.GIT, TAGS.MONGODB],
+      tags: [TAGS.NEXT, TAGS.TYPESCRIPT, TAGS.PRISMA, TAGS.POSTGRES, TAGS.TAILWIND, TAGS.REACT, TAGS.TANSTACK, TAGS.SHADCN],
     },
   ];
 
@@ -112,9 +137,9 @@ export const Projects = () => {
       description:
         'Tu Empleo Ideal is a comprehensive platform designed to streamline the job search and application process. With an intuitive and appealing interface, users can explore various job listings, filter by categories, and apply to their preferred positions. The platform is backed by modern technologies such as NestJS and React, ensuring efficient performance and a seamless user experience. Additionally, it integrates with MongoDB to store and manage user and job listing information. Responsive design and style implementation using SASS and Bootstrap guarantee a consistent experience across different devices. Axios is used for handling HTTP requests, and version control is managed through Git. Explore Your Ideal Job and take a step closer to your dream career!',
       link: 'https://tuempleoideal.com.do',
-      image: './assets/tuempleoideal.jpg',
+      image: tuempleoideal,
       github: '', // Include the link to your GitHub repository here if it's public
-      tags: [TAGS.NESTJS, TAGS.REACT, TAGS.SASS, TAGS.AXIOS, TAGS.BOOTSTRAP, TAGS.GIT, TAGS.MONGODB],
+      tags: [TAGS.NEXT, TAGS.TYPESCRIPT, TAGS.PRISMA, TAGS.POSTGRES, TAGS.TAILWIND, TAGS.REACT, TAGS.TANSTACK, TAGS.SHADCN],
     },
   ];
 
